@@ -11,10 +11,7 @@ public static void main(String[]args){
     System.out.println("Enter Fahrenheit");
     fahrenheit = input.nextInt();
 
-    System.out.println("Enter Celcius");
-    celcius = input.nextInt();
-
-    celcius = 5/9 * (fahrenheit - 32);
+    celcius = 5.0/9.0 * (fahrenheit - 32.0);
 
     System.out.println("Celcius is: " + celcius);
 
